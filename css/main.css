@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
+:root {
+    --feher: white;
+    --zold: #5d6a09;
+    --sotetebbzold: #414a04;
+    --piros: #81150b;
+    --vilagossarga: #ffeccb;
+}
+
+body {
+    background-image: url('../img/bg_pizza.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: var(--piros);
+    color: var(--feher) !important;
+}
+
+nav a {
+    color: var(--feher) !important;
+}
+
+h1, h2 {
+    font-family: 'Cabin Sketch', cursive;
+    color: var(--zold);
+}
+
+h1 {}
